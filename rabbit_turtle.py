@@ -49,7 +49,7 @@ for _ in range(len(rabbit)):
     print("\033[2A\033[K\rKyle:", f"\t{rabbit[a]*"."}", "🐇","\nPobby:", f"\t{turtle[b]*"."}", "🐢")
     a += 1
     b += 1
-if twin is None:
+if "twin" not in globals():
     print(rwin)
 else:
     print(twin)
